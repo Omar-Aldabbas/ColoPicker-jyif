@@ -5,7 +5,7 @@
 }
 
 :root {
-  --header-bg-color: #222;
+  --header-bg-color: #09beaf;
   --color-1: #ff0000;
   --color-2: #00ff00;
   --color-3: #0000ff;
@@ -30,9 +30,9 @@
 
 header {
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
   background-color: var(--header-bg-color);
-  color: white;
+  color: rgb(20, 37, 41);
   margin: 0;
   padding: 15px;
 }
@@ -56,7 +56,7 @@ form {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-  gap: 25px;
+
 }
 
 .container {
@@ -64,6 +64,7 @@ form {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 25px;
+  padding: 40px;
 }
 
 .color-option {
@@ -77,8 +78,8 @@ input[type="radio"] {
 .circle {
   position: relative;
   display: inline-block;
-  width: 8rem;
-  height: 8rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 50%;
   border: 2px solid black;
   cursor: pointer;
