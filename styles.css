@@ -56,7 +56,6 @@ form {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
-
 }
 
 .container {
@@ -110,7 +109,7 @@ input[type="radio"]:checked + .circle::after {
   z-index: 2;
 }
 
-button {
+/* button {
   display: block;
   width: 100%;
   max-width: 300px;
@@ -127,12 +126,12 @@ button {
 
 button:hover {
   background-color: var(--btn-hover);
-  /* color: var(--color-17); */
+  
   color: white;
   border-color: transparent;
   border-radius: 12px;
   transform: scale(1.05);
-}
+} */
 
 .c1 {
   background-color: var(--color-1);
