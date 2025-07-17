@@ -1,4 +1,4 @@
-# Color Picker Task – JYIF
+# 🍁 Color Picker Task – JYIF
 
 This is a simple color picker built using HTML and CSS as part of the JYIF training tasks.
 
